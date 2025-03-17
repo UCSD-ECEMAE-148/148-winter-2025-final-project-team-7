@@ -31,7 +31,7 @@
 <hr>
 
 ## Team Members
-Brandon Lopez - MAE  - Class of 2025 - 
+Brandon Lopez - MAE  - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/brandon26/) 
 
 Francisco Garcia - ECE - Class of 2025
 
