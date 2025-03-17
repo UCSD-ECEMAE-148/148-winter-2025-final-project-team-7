@@ -1,10 +1,10 @@
 # <div align="center">IMU Integration Donkeycar Framework</div>
 ![image](https://github.com/WinstonHChou/winter-2024-final-project-team-7/assets/68310078/0ba1c6cb-c9e0-4cf7-905a-f5f16e6bb2ca)
 ### <div align="center"> MAE 148 Final Project </div>
-#### <div align="center"> Team 7 Winter 2024 </div>
+#### <div align="center"> Team 7 Winter 2025 </div>
 
 <div align="center">
-    <img src="images\ucsdrobocar-148-07.webp" width="800" height="600">
+    <img src="add picture of our robot" width="800" height="600">
 </div>
 
 ## Table of Contents
@@ -31,11 +31,13 @@
 <hr>
 
 ## Team Members
-Winston Chou - MAE Ctrls & Robotics (MC34) - Class of 2026 - [LinkedIn](https://www.linkedin.com/in/winston-wei-han-chou-a02214249/)
+Brandon Lopez - MAE  - Class of 2025 - 
 
-Amir Riahi - ECE - UPS Student
+Francisco Garcia - ECE - Class of 2025
 
-Rayyan Khalid - MAE Ctrls & Robotics (MC34) - Class of 2025
+Bree Stram - BENG - Class of 2025
+
+Atharva Kedia - ECE - Class of 2026
 <hr>
 
 ## Abstract
