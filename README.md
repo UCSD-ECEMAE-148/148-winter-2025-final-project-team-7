@@ -4,7 +4,8 @@
 #### <div align="center"> Team 7 Winter 2025 </div>
 
 <div align="center">
-    <img src="add picture of our robot" width="800" height="600">
+    <img src="![image](https://github.com/user-attachments/assets/18680a8e-b63d-49ae-bb85-a326b2eb55c7)
+" width="800" height="600">
 </div>
 
 ## Table of Contents
