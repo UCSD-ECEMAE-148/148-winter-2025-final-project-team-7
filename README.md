@@ -33,7 +33,7 @@
 ## Team Members
 Brandon Lopez - MAE  - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/brandon26/) 
 
-Francisco Garcia - ECE - Class of 2025
+Francisco Garcia - ECE - Class of 2025 -[LinkedIn](https://www.linkedin.com/in/francisco-garcia-351270219/) 
 
 Bree Stram - BENG - Class of 2025
 
