@@ -236,14 +236,14 @@ Our team made use of a select range of electronic components, primarily focusing
 ## Course Deliverables
 Here are our autonomous laps as part of our class deliverables:
 
-* DonkeySimulator Laps: https://youtu.be/k4IBv1xpOJo
-* Line Following: https://youtu.be/GaKq_m8Ola0
-* Lane Following: https://youtu.be/1v2-Dgx5fyk
-* GPS Laps: https://youtu.be/92Q-JpYGPZk?si=UYrh6Mo9-b4TGgYO
+* DonkeySimulator Autonomous Laps: https://youtu.be/k4IBv1xpOJo
+* DonkeySimulator Autonomous (Remote Server) Laps: https://youtu.be/6-3juWUL2Wc
+* Lane Following Autonomous Laps: https://youtu.be/3gb0JS8ZidY
+* GPS Autonomous Laps: https://youtu.be/-sfzaUusQJ4
+* OpenCV Autonomous Laps: 
 
 Team 7's the weekly project Status Update and Final Presentation:  
-* [Team 7 weekly status updates](https://docs.google.com/presentation/d/e/2PACX-1vSWm0AW0yZ6IKFCnXcJtbBB0NPDEejXtwTStLtW3yOxjlFvpV0wWUp3y91MQgVq3j63RR5WNTfaSFZW/pub?start=false&loop=false&delayms=3000)
-* [Team 7 Final Presentation](https://docs.google.com/presentation/d/e/2PACX-1vRGnL11PP4RDo87JKWF-kLgD4dVyRBdL_eSWTUIe0eLQumJOI_wawX6sBa7MOMksFe8tPUjdFZBWRRE/pub?start=false&loop=false&delayms=3000)
+* [View My Google Slides](https://docs.google.com/presentation/d/1NeJFdNSlSz2XIg3V0_UelSlysrG5QyMZ0-aBoINpIxE/edit#slide=id.g335b997d1d9_0_5)
 <hr>
 
 ## Project Reproduction
