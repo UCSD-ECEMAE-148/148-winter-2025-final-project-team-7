@@ -199,6 +199,7 @@ __Parts List__
 * Battery voltage checker/alarm
 * DC Barrel Connector
 * XT60, XT30, MR60 connectors
+* SparkFun OpenLog Artemis (DEV-16832)
 
 *Additional Parts used for testing/debugging*
 
@@ -226,23 +227,16 @@ __GPS Plate__
 
 __Circuit Diagram__
 
-Our team made use of a select range of electronic components, primarily focusing on the OAK-D Lite camera, Jetson NANO, a GNSS board / GPS, and an additional Seeed Studio XIAO nRF52840 Sense (for IMU usage).
-Our circuit assembly process was guided by a circuit diagram provided by our class TAs.
-
-<img src="images\circuitDiagram.PNG" height="300">
-
-<hr>
-
-## Gantt Chart
+Our team made use of a select range of electronic components, primarily focusing on the OAK-D Lite camera, Jetson NANO, a GNSS board / GPS, and an additional SparkFun OpenLog Artemis (DEV-16832) for IMU recording.
 <div align="center">
-    <img src="images\gantt_chart.webp" height="500">
+<img src="Images\circuit_diagram.png" width="900" height="600">
 </div>
 <hr>
 
 ## Course Deliverables
 Here are our autonomous laps as part of our class deliverables:
 
-* DonkeyCar Reinforcement Laps: https://youtu.be/UEGGQz-GSq4
+* DonkeySimulator Laps: https://youtu.be/k4IBv1xpOJo
 * Line Following: https://youtu.be/GaKq_m8Ola0
 * Lane Following: https://youtu.be/1v2-Dgx5fyk
 * GPS Laps: https://youtu.be/92Q-JpYGPZk?si=UYrh6Mo9-b4TGgYO
