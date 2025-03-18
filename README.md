@@ -242,8 +242,9 @@ Here are our autonomous laps as part of our class deliverables:
 * GPS Autonomous Laps: https://youtu.be/-sfzaUusQJ4
 * OpenCV Autonomous Laps: 
 
-Team 7's the weekly project Status Update and Final Presentation:  
+Weekly Project Status Update and Final Presentation:  
 * [Google Slides](https://docs.google.com/presentation/d/1NeJFdNSlSz2XIg3V0_UelSlysrG5QyMZ0-aBoINpIxE/edit#slide=id.g335b997d1d9_0_5)
+[![Google Slides](Images/updates.png)](https://docs.google.com/presentation/d/1NeJFdNSlSz2XIg3V0_UelSlysrG5QyMZ0-aBoINpIxE/edit#slide=id.g335b997d1d9_0_5)
 <hr>
 
 ## Project Reproduction
