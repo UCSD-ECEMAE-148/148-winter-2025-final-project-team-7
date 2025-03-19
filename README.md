@@ -395,5 +395,6 @@ README.md Format, reference to [spring-2023-final-project-team-5](https://github
 ## Contacts
 
 * Francisco Garcia - frgarcia@ucsd.edu | frgarciaa1@gmail.com | [LinkedIn](https://www.linkedin.com/in/francisco-garcia-351270219/)
-* Brandon Lopez - blopez@ucsd.edu
-* Atharva Kedia - atkedia@ucsd.edu
+* Brandon Lopez - blopez@ucsd.edu | brandon.lopez.miramontes@gmail.com | [LinkedIn](https://www.linkedin.com/in/brandon26/) 
+* Atharva Kedia - atkedia@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
+* Bree Stram - bstram@ucsd.edu
