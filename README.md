@@ -178,7 +178,8 @@ Weekly Project Status Update and Final Presentation:
 <hr>
 
 ## Project Reproduction
-If you are interested in reproducing our project, here are a few steps to get you started with our repo:
+If you are interested in reproducing our project, here are a few steps to get you started:
+* Jetson Nano Configuration [Link](https://docs.google.com/document/d/1TF1uGAFeDARNwbPkgg9xg4NvWPJvrsHW2I_IN9dWQH0/edit?tab=t.0#heading=h.b0ghgbcoid6m)
 
 ## Acknowledgements
 Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
