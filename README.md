@@ -388,7 +388,7 @@ Thanks to Nikita on Triton AI providing support on razorIMU_9dof repo for IMU us
 * [Foxglove Studio](https://app.foxglove.dev/)
 
 
-README.md Format, reference to [spring-2023-final-project-team-5](https://github.com/UCSD-ECEMAE-148/spring-2023-final-project-team-5)
+README.md Format, reference to [winter-2024-final-project-team-7](https://github.com/UCSD-ECEMAE-148/winter-2024-final-project-team-7?tab=readme-ov-file#hardware)
 
 <hr>
 
