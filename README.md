@@ -89,26 +89,14 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 ## Final Project Videos
 **Click** any of the clips below to **reroute to the video**. 
 
-#### **Mapping**
+#### **IMU Data Reading**
 
-[<img src="images\mapping.webp" width="300">](https://youtu.be/1juHBhWz0MQ?si=Pjw60vCCNlXvP-IJ)
+[<img src="Images\IMU_Data_Reading.png" width="300">](https://youtu.be/060TtfnaJ5Q)
 
-#### **Localization**
+#### **IMU Real Time Data Plotting**
 
-[<img src="images\localization.webp" width="300">](https://youtu.be/MX7kB6Jm7y0?si=0zmViTiaanLxiC1R)
+[<img src="Images\IMU_Real_Time_Data.png" width="300">](https://youtu.be/KJVEJFGC0Ec)
 
-#### **PCL Obstacle Detection**
-
-[<img src="images\foxglove_pcl.webp" width="300">](https://youtu.be/iBNiwRAd4vU?si=_p8UwEmmzGuZwT1X)
-
-
-#### Odom Frame Demo
-
-[<img src="images\odom.webp" width="300">](https://youtu.be/PYMze0eOyS8?si=Nz3BIUGNAnoSLkpe)
-
-#### Scan Correction Demo
-
-[<img src="images\laser_frame.webp" width="300">](https://youtu.be/-2ELt_U10Mc?si=TWcBfC-b9EcZiGpV)
 
 <hr>
 
