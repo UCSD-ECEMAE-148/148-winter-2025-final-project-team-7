@@ -250,13 +250,6 @@ Weekly Project Status Update and Final Presentation:
 ## Project Reproduction
 If you are interested in reproducing our project, here are a few steps to get you started with our repo:
 
-<ol>
-  <li>Follow instuctions on <a href="https://docs.google.com/document/d/1YS5YGbo8evIo9Mlb0J-w2r3bZfju37Zl4UmdaN2CD2A/">UCSD Robocar Framework Guidebook</a>, <br> pull <code>devel</code> image on your JTN: <code>docker pull djnighti/ucsd_robocar:devel</code></li>
-  <li>
-      <code>sudo apt update && sudo apt upgrade</code><br>
-      (make sure you upgrade the packages, or else it won't work; maybe helpful if you run into some error <url>https://askubuntu.com/questions/1433368/how-to-solve-gpg-error-with-packages-microsoft-com-pubkey</url>)<br>
-      check if <code>slam_toolbox</code> is installed and launchable:<br>
-<hr>
 ## Acknowledgements
 Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
 Thanks to Aryan on Triton AI giving suggestions and supporting on our project!  
