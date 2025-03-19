@@ -32,7 +32,7 @@ Francisco Garcia - ECE - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/
 
 Atharva Kedia - ECE - Class of 2026 - [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
 
-Bree Stram - BENG - Class of 2025 
+Bree Stram - BENG: BSYS - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/breanna-stram-30389b2a6/)
 
 
 <hr>
@@ -180,22 +180,6 @@ Weekly Project Status Update and Final Presentation:
 ## Project Reproduction
 If you are interested in reproducing our project, here are a few steps to get you started:
 * Jetson Nano Configuration [Link](https://docs.google.com/document/d/1TF1uGAFeDARNwbPkgg9xg4NvWPJvrsHW2I_IN9dWQH0/edit?tab=t.0#heading=h.b0ghgbcoid6m)
-* Jetson Xavier Configuration [Link](https://docs.google.com/document/d/1mXgN9DcAj30HAsbfrHNCP-YEYqKWPTbcUssRI1Xab1A/edit?tab=t.0#heading=h.qfnzubgcn5p6)
-* OpenCV CUDA Accelerated [Link](https://docs.google.com/document/d/1HX2zmjbVsyLnliEQ8wp97Y453g5qNAYHWtFQiKQ0elA/edit?tab=t.0#heading=h.uieq3bo7w218)
-* UCSD Robocar Framework [Link](https://docs.google.com/document/d/1Onft0sIWhEd9UH7fItJ0atC1hKnxpTxKKmUFHtqC-sA/edit?tab=t.0)
-
-Follow instruciton on UCSD Robocar Framework [Link](https://docs.google.com/document/d/1Onft0sIWhEd9UH7fItJ0atC1hKnxpTxKKmUFHtqC-sA/edit?tab=t.0) pull `devel` image on your Jetson Nano:
-```
-docker pull djnighti/ucsd_robocar:devel
-```
-```
-sudo apt update
-```
-```
-sudo apt upgrade
-```
-
-
 
 ## Acknowledgements
 Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
@@ -213,6 +197,6 @@ README.md Format, reference to [winter-2024-final-project-team-7](https://github
 * Francisco Garcia - frgarcia@ucsd.edu | frgarciaa1@gmail.com | [LinkedIn](https://www.linkedin.com/in/francisco-garcia-351270219/)
 * Brandon Lopez - blopez@ucsd.edu | brandon.lopez.miramontes@gmail.com | [LinkedIn](https://www.linkedin.com/in/brandon26/) 
 * Atharva Kedia - atkedia@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
-* Bree Stram - bstram@ucsd.edu
+* Bree Stram - bstram@ucsd.edu |  [LinkedIn](https://www.linkedin.com/in/breanna-stram-30389b2a6/)
 
 <hr>
