@@ -141,6 +141,7 @@ __Base Plate__
 <div align="center">
 <img src="Images\Base.png" height="350"> 
 </div>
+
 __Camera Stand__
 
 Camera Stand components were designed in a way that it's an adjustable angle and height This design feature offers versatility and adaptability, ensuring optimal positioning of the camera to capture desired perspectives and accommodate various environments or setups.
