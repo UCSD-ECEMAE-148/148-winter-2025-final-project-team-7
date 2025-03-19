@@ -16,12 +16,7 @@
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#final-project-videos">Final Project Videos</a></li>
     <li><a href="#software">Software</a></li>
-        <ul>
-            <li><a href="#slam-simultaneous-localization-and-mapping">SLAM (Simultaneous Localization and Mapping)</a></li>
-            <li><a href="#obstacle-avoidance">Obstacle Avoidance</a></li>
-        </ul>
     <li><a href="#hardware">Hardware</a></li>
-    <li><a href="#gantt-chart">Gantt Chart</a></li>
     <li><a href="#course-deliverables">Course Deliverables</a></li>
     <li><a href="#project-reproduction">Project Reproduction</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
