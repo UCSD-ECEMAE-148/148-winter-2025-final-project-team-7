@@ -37,7 +37,7 @@ Francisco Garcia - ECE - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/
 
 Atharva Kedia - ECE - Class of 2026 - [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
 
-Bree Stram - BENG - Class of 2025 - 
+Bree Stram - BENG - Class of 2025 
 
 
 <hr>
@@ -240,7 +240,7 @@ Here are our autonomous laps as part of our class deliverables:
 * DonkeySimulator Autonomous (Remote Server) Laps: https://youtu.be/6-3juWUL2Wc
 * Lane Following Autonomous Laps: https://youtu.be/3gb0JS8ZidY
 * GPS Autonomous Laps: https://youtu.be/-sfzaUusQJ4
-* OpenCV Autonomous Laps: 
+* OpenCV Autonomous Laps: https://youtu.be/kRCSMZZy2x0
 
 Weekly Project Status Update and Final Presentation:  
 * [Google Slides](https://docs.google.com/presentation/d/1NeJFdNSlSz2XIg3V0_UelSlysrG5QyMZ0-aBoINpIxE/edit#slide=id.g335b997d1d9_0_5)
