@@ -256,7 +256,7 @@ If you are interested in reproducing our project, here are a few steps to get yo
       <code>sudo apt update && sudo apt upgrade</code><br>
       (make sure you upgrade the packages, or else it won't work; maybe helpful if you run into some error <url>https://askubuntu.com/questions/1433368/how-to-solve-gpg-error-with-packages-microsoft-com-pubkey</url>)<br>
       check if <code>slam_toolbox</code> is installed and launchable:<br>
-
+<hr>
 ## Acknowledgements
 Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
 Thanks to Aryan on Triton AI giving suggestions and supporting on our project!  
@@ -274,3 +274,5 @@ README.md Format, reference to [winter-2024-final-project-team-7](https://github
 * Brandon Lopez - blopez@ucsd.edu | brandon.lopez.miramontes@gmail.com | [LinkedIn](https://www.linkedin.com/in/brandon26/) 
 * Atharva Kedia - atkedia@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
 * Bree Stram - bstram@ucsd.edu
+
+<hr>
