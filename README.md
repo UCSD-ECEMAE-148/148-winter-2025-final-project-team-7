@@ -148,10 +148,12 @@ Camera Stand components were designed in a way that it's an adjustable angle and
 <div align="center">
 <img src="Images\Isometric View.png" height="350">
 </div>
+
 __GPS Plate__
 <div align="center">
 <img src="Images\GPS_Stand.png" height="300">
 </div>
+
 __Circuit Diagram__
 
 Our team made use of a select range of electronic components, primarily focusing on the OAK-D Lite camera, Jetson NANO, a GNSS board / GPS, and an additional SparkFun OpenLog Artemis (DEV-16832) for IMU recording.
