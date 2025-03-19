@@ -78,25 +78,23 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 <hr>
 
 ## Challenges
-* Nav2 Stack is a complex but useful system for developing an autonomous robot.
-* Futher Actions:
-  * PointCloud Dynamic Obstacle Detection:  
-    - Develop an algorithm to mark down position of obstacle group, and add them to Nav2 obstacle layer
-  * Nav2 Path Planning & ROS 2 Control:  
-    - Path Planning Server Development, and communication to ROS 2 Control System
+* Establishing I2C communication between the BNO085 IMU and the Jetson Nano was difficult due to permission conflicts and dependency issues, requiring extensive troubleshooting.
+* Integrating the IMU with the DonkeyCar Framework proved challenging because the existing codebase was fragmented. We struggled to determine the correct approach for adding a new component to log data and utilize it in real-time processing within the framework.
+* We aimed to fuse GPS data with the IMU to improve path accuracy, but implementing sensor fusion was complex due to synchronization issues and the need for an effective filtering method, such as a Kalman filter or complementary filtering.
 <hr>
 
 ## Final Project Videos
-**Click** any of the clips below to **reroute to the video**. 
-
+**Click** any of the images below to **reroute to the video**. 
+<div align="center">
+     
 #### **IMU Data Reading**
 
-[<img src="Images\IMU_Data_Reading.png" width="300">](https://youtu.be/060TtfnaJ5Q)
+[<img src="Images\IMU_Data_Reading.png" width="500">](https://youtu.be/060TtfnaJ5Q)
 
 #### **IMU Real Time Data Plotting**
 
-[<img src="Images\IMU_Real_Time_Data.png" width="300">](https://youtu.be/KJVEJFGC0Ec)
-
+[<img src="Images\IMU_Real_Time_Data.png" width="500">](https://youtu.be/KJVEJFGC0Ec)
+</div>
 
 <hr>
 
@@ -106,61 +104,7 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 The project was successfully completed using the **Slam-Toolbox** and **ROS2 Navigation 2 Stack**, with a significant adaptation to the [djnighti/ucsd_robocar container](https://hub.docker.com/r/djnighti/ucsd_robocar). The adaptation allowed for seamless integration and deployment of the required components, facilitating efficient development and implementation of the robotic system.
 
 ### SLAM (Simultaneous Localization and Mapping)
-- The **Slam Toolbox** proved indispensable in our project, enabling us to integrate the LD19 Lidar – firmware-compatible with the LD06 model – into the ROS2 framework. This integration allowed us to implement SLAM, empowering our robot to autonomously map its environment while concurrently determining its precise location within it. Additionally, we enhanced this capability by incorporating nav2 amcl localization, further refining the accuracy and dependability of our robot's localization system. By combining these technologies, our robot could navigate confidently, accurately mapping its surroundings and intelligently localizing itself within dynamic environments.<br>
 
-- The **Online Async Node** from the Slam Toolbox is a crucial component that significantly contributes to the creation of the map_frame in the project. This node operates asynchronously, meaning it can handle data processing tasks independently of other system operations, thereby ensuring efficient utilization of resources and enabling real-time performance. The map_frame is a fundamental concept in SLAM, representing the coordinate frame that defines the global reference frame for the environment map being generated. The asynchronous online node processes Lidar data, and fuses this information together to construct a coherent and accurate representation of the surrounding environment.<br>
-
-- The **VESC Odom Node** plays a pivotal role in supplying vital odometry frame data within the robotics system. This node is responsible for gathering information from the VESC (Vedder Electronic Speed Controller), and retrieves essential data related to the robot's motion, such as wheel velocities and motor commands. The odometry frame, often referred to as the "odom_frame," is a critical component in localization and navigation tasks. It represents the robot's estimated position and orientation based on its motion over time. This information is crucial for accurately tracking the robot's trajectory and determining its current pose within the environment. By utilizing the data provided by the VESC Odom Node, the system can update the odometry frame in real-time, reflecting the robot's movements and changes in its position. This dynamic updating ensures that the odometry frame remains synchronized with the robot's actual motion, providing an accurate representation of its trajectory.
-
-<br>
-<div align="center">
-    <img src="images\Frames_Relationships.png" height="300"><br>
-    <b>from https://answers.ros.org/question/387751/difference-between-amcl-and-odometry-source/</b><br>
-    <img src="images\tf_tree.webp" height="600"><br>
-    <b>Our Robot TF Tree</b><br>
-</div><br>
-
-- The **URDF Publisher** is a tool used to generate and publish Unified Robot Description Format (URDF) models within the ROS 2 ecosystem.
-<br>
-<div align="center">
-    <img src="images\URDF.png" height="300"><br>
-    <b>URDF Model of the robot</b><br>
-    <img src="images\robot_on_ground.webp" height="300"><br>
-    <b>Physical Robot</b><br>
-</div><br>
-
-- The **Seeed IMU Node** is used to publish IMU data Seeed Studio XIAO nRF52840 Sense. By integrating the Seeed Studio XIAO nRF52840 Sense's 6-Axis IMU and implementing an Extended Kalman Filter (Not Done), the robot gains improved localization accuracy and reduced odometry drift. The IMU provides orientation and acceleration data, complementing other sensors like wheel encoders and GPS. The Extended Kalman Filter fuses IMU and odometry measurements, dynamically adjusting uncertainties to mitigate noise and inaccuracies, resulting in enhanced navigation performance and reliability.<br>
-
-<div align="center">
-    <img src="https://github.com/WinstonHChou/winter-2024-final-project-team-7/assets/68310078/897b3a72-5760-4389-8faf-1873f8b8709a" height="300"><br>
-    <b><a href="https://youtu.be/QrzTvfnHyqE">Seeed IMU Demo</a></b>
-</div><br>
-
-- The **Scan Correction Node** becomes particularly useful when there are specific sections of Lidar data that we wish to exclude from being collected by SLAM. This node allows us to define undesired ranges within the Lidar data and effectively filter them out, ensuring that only relevant and accurate information is utilized in the SLAM process. This capability enhances the overall quality and reliability of the generated map by preventing erroneous or irrelevant data from influencing the mapping and localization algorithms.
-<br>
-<div align="center">
-    <img src="images\Non-filtered_map.png" height="300"><br>
-    <b>Before filtered</b><br><br>
-    <img src="images\Filtered_map.png" height="300"><br>
-    <b>After filtered</b>
-</div>
-
-### Obstacle Avoidance
-We utlized the OAK-D Lite depth camera to implement obstacle avoidance functionality within the ROS2 framework. Leveraging its depth sensing capabilities, we utilized the camera to generate a point cloud representation of the environment. The program logic is straightforward: the robot detects obstacles by identifying areas where the height is less than 2 meters (customizable) in front of it. If an object is detected within this distance threshold, the robot dynamically adjusts its trajectory to avoid collision, typically by making a turn. This simple yet effective approach allows the robot to navigate safely through its environment, reacting to potential obstacles in real-time to ensure smooth and obstacle-free movement.
-<br>
-<div align="center">
-    <img src="images\rviz_pcl.jpg" height="300"><br>
-    <b>PointCloud Visualization with Rviz2</b><br><br>
-    <img src="images\foxglove_pcl.webp" height="300"><br>
-    <b>PointCloud Visualization with Foxglove Studio</b>
-</div><br>
-
-We integrated the DepthAI ROS package into our ROS2 setup to enable object detection functionality. Within the package, we utilized the provided YOLO (You Only Look Once) neural network setup for object detection. This configuration allowed our robot to detect objects in its environment in real-time using deep learning techniques. By leveraging the YOLO neural network, our robot could accurately identify and classify various objects, enhancing its perception and autonomy for effective navigation in dynamic environments.
-<br>
-<div align="center">
-    <img src="images\6_yolo_v3_tf_object_detection.webp" height="300"><br>
-    <b>yolo_v3_tf_object_detection</b><br><br>
-</div>
 
 <hr>
 
