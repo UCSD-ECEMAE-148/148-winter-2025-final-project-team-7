@@ -212,7 +212,7 @@ __Parts List__
 
 __Base Plate__
 
-<img src="images\BasePlate_1.webp" height="350"> <img src="images\BasePlate_2.webp" height="350">
+<img src="Images\BasePlate" height="350"> <img src="images\BasePlate_2.webp" height="350">
 
 __Camera Stand__
 
