@@ -394,6 +394,6 @@ README.md Format, reference to [spring-2023-final-project-team-5](https://github
 
 ## Contacts
 
-* Winston Chou - w3chou@ucsd.edu | winston.ckhs@gmail.com | [LinkedIn](https://www.linkedin.com/in/winston-wei-han-chou-a02214249/)
-* Amir Riahi - amirriahi760@yahoo.com
-* Rayyan Khalid - rkhalid@ucsd.edu
+* Francisco Garcia - frgarcia@ucsd.edu | frgarciaa1@gmail.com | [LinkedIn](https://www.linkedin.com/in/francisco-garcia-351270219/)
+* Brandon Lopez - blopez@ucsd.edu
+* Atharva Kedia - atkedia@ucsd.edu
