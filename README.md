@@ -376,17 +376,11 @@ That's it! Most of settings are above. If you need any assistance on how to util
 <hr>
 
 ## Acknowledgements
-Special thanks to Professor Jack Silberman and TA Arjun Naageshwaran for delivering the course!  
-Thanks to Raymond on Triton AI giving suggestions on our project!  
-Thanks to Nikita on Triton AI providing support on razorIMU_9dof repo for IMU usage!
+Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
+Thanks to Aryan on Triton AI giving suggestions and supporting on our project!  
 
 **Programs Reference:**
 * [UCSD Robocar Framework](https://gitlab.com/ucsd_robocar2)
-* [Slam Toolbox](https://github.com/SteveMacenski/slam_toolbox.git)
-* [DepthAI_ROS_Driver](https://github.com/luxonis/depthai-ros)
-* [razorIMU_9dof](https://github.com/NikitaB04/razorIMU_9dof)
-* [Foxglove Studio](https://app.foxglove.dev/)
-
 
 README.md Format, reference to [winter-2024-final-project-team-7](https://github.com/UCSD-ECEMAE-148/winter-2024-final-project-team-7)
 
