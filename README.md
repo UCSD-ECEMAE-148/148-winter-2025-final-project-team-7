@@ -184,6 +184,18 @@ If you are interested in reproducing our project, here are a few steps to get yo
 * OpenCV CUDA Accelerated [Link](https://docs.google.com/document/d/1HX2zmjbVsyLnliEQ8wp97Y453g5qNAYHWtFQiKQ0elA/edit?tab=t.0#heading=h.uieq3bo7w218)
 * UCSD Robocar Framework [Link](https://docs.google.com/document/d/1Onft0sIWhEd9UH7fItJ0atC1hKnxpTxKKmUFHtqC-sA/edit?tab=t.0)
 
+Follow instruciton on UCSD Robocar Framework [Link](https://docs.google.com/document/d/1Onft0sIWhEd9UH7fItJ0atC1hKnxpTxKKmUFHtqC-sA/edit?tab=t.0) pull `devel` image on your Jetson Nano:
+```
+docker pull djnighti/ucsd_robocar:devel
+```
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
+
+
 
 ## Acknowledgements
 Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
