@@ -211,20 +211,20 @@ __Parts List__
 ### __Mechanical Design Highlight__
 
 __Base Plate__
-
-<img src="Images\BasePlate" height="350"> <img src="images\BasePlate_2.webp" height="350">
-
+<div align="center">
+<img src="Images\Base.png" height="350"> 
+</div>
 __Camera Stand__
 
 Camera Stand components were designed in a way that it's an adjustable angle and height This design feature offers versatility and adaptability, ensuring optimal positioning of the camera to capture desired perspectives and accommodate various environments or setups.
 
-<img src="images\Camera_Stand_1.webp" height="160"> <img src="images\Camera_Stand_2.webp" height="160"><br>
-<img src="images\Camera_Stand_3.webp" height="350">
-
+<div align="center">
+<img src="Images\Isometric View.png" height="350">
+</div>
 __GPS Plate__
-
-<img src="images\GPS_Plate.webp" height="300">
-
+<div align="center">
+<img src="Images\GPS_Stand.png" height="300">
+</div>
 __Circuit Diagram__
 
 Our team made use of a select range of electronic components, primarily focusing on the OAK-D Lite camera, Jetson NANO, a GNSS board / GPS, and an additional SparkFun OpenLog Artemis (DEV-16832) for IMU recording.
