@@ -32,7 +32,7 @@ Francisco Garcia - ECE - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/
 
 Atharva Kedia - ECE - Class of 2026 - [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
 
-Bree Stram - BENG - Class of 2025 
+Bree Stram - BENG - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/breanna-stram-30389b2a6/)
 
 
 <hr>
@@ -213,6 +213,6 @@ README.md Format, reference to [winter-2024-final-project-team-7](https://github
 * Francisco Garcia - frgarcia@ucsd.edu | frgarciaa1@gmail.com | [LinkedIn](https://www.linkedin.com/in/francisco-garcia-351270219/)
 * Brandon Lopez - blopez@ucsd.edu | brandon.lopez.miramontes@gmail.com | [LinkedIn](https://www.linkedin.com/in/brandon26/) 
 * Atharva Kedia - atkedia@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/atharvakedia/)
-* Bree Stram - bstram@ucsd.edu
+* Bree Stram - bstram@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/breanna-stram-30389b2a6/)
 
 <hr>
