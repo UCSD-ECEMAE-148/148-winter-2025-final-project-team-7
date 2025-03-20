@@ -64,8 +64,8 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 <hr>
 
 ## Accomplishments
-* Sparkfu
-  * It enables the robot to map an unknown environment, and to locate its position.
+* Sparkfun
+  * It enables the robot to map an unknown environment and to locate its position.
   * Seeed IMU setup for better localization (Extended Kalman Filter).
 * Obstacle Avoidance
   * Utilize its depth sensing capabilities to generate a point cloud representation of the environment. (Rviz2 and Foxglove Studio)
