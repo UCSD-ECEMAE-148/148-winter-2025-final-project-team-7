@@ -80,7 +80,7 @@ The result is a more robust framework, capable of handling GPS inaccuracies by l
 ## Challenges
 * Establishing I2C communication between the BNO085 IMU and the Jetson Nano was difficult due to permission conflicts and dependency issues, requiring extensive troubleshooting.
 * Integrating the IMU with the DonkeyCar Framework proved challenging because the existing codebase was fragmented. We struggled to determine the correct approach for adding a new component to log data and utilize it in real-time processing within the framework.
-* We aimed to fuse GPS data with the IMU to improve path accuracy, but implementing sensor fusion was complex due to synchronization issues and the need for an effective filtering method, such as a Extended Kalman filter or complementary filtering.
+* We aimed to fuse GPS data with the IMU to improve path accuracy, but implementing sensor fusion was complex due to synchronization issues and the need for an effective filtering method, such as a Extended Kalman Filter.
 <hr>
 
 ## Future Work
