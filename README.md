@@ -74,7 +74,7 @@ The result is a more robust framework, capable of handling GPS inaccuracies by l
   * Linearize accelerometer to Earth's frame
   * Magnetometer calibration compatability
   * Madwick Quaternion Update to get accurate euler angle readings of the IMU sensors
-* Fused GPS + IMU sensors using Extended Kalman Filter to update and rpedict more reliable position (still have to test and prove it works
+* Fused GPS + IMU sensors using Extended Kalman Filter to update and predict more reliable positioning (still have to test and prove it works)
 <hr>
 
 ## Challenges
