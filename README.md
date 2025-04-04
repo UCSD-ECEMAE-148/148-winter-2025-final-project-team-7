@@ -38,15 +38,15 @@ Bree Stram - BENG - Class of 2025 - [LinkedIn](https://www.linkedin.com/in/brean
 <hr>
 
 ## Abstract
-This project enhances the DonkeyCar autonomous driving framework by integrating Inertial Measurement Unit (IMU) data with GPS for more accurate path tracking. To improve localization, this project modifies the existing path.py module to incorporate IMU data (acceleration, gyroscope, and magnetometer readings). These additional sensor inputs enable sensor fusion techniques such as Kalman Filtering or Complementary Filtering, allowing for more precise position estimation.
+This project enhances the DonkeyCar autonomous driving framework by integrating Inertial Measurement Unit (IMU) data with GPS for more accurate path tracking. To improve localization, this project modifies the existing complete.py template to incorporate IMU data (euler angles, acceleration, and gyroscope readings). These additional sensor inputs enable sensor fusion techniques such as Extended Kalman Filtering or Complementary Filtering, allowing for more precise position estimation.
 The modifications involve:
 
-*    Extending the CsvThrottlePath class to record IMU data alongside GPS.
-*    Updating manage.py to pass IMU readings through the DonkeyCar vehicle pipeline.
+*    Updating myconfig.py to toggle IMU part intialization in DonkeyCar vehicle pipeline.
+*    Calibrating and smoothing out the IMU data readings in imu.py.
+*    Visualizing real-time IMU data for debugging and optimization.
 *    Developing a fusion algorithm that combines GPS and IMU data to enhance path accuracy.
-*    Visualizing real-time IMU-GPS data for debugging and optimization.
 
-The result is a more robust navigation system, capable of handling GPS inaccuracies by leveraging IMU-based dead reckoning, improving path-following performance in autonomous driving applications.
+The result is a more robust framework, capable of handling GPS inaccuracies by leveraging IMU-based dead reckoning, improving path-following performance in autonomous driving applications.
 
 <hr>
 
@@ -54,7 +54,7 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 ### Must Have
 *    Integrate GPS and IMU sensors into the DonkeyCar framework.
 *    Modify the existing path recording system to log both GPS and IMU data for enhanced localization.
-*    Implement a sensor fusion algorithm (e.g., Kalman Filter or Complementary Filter) to improve path accuracy using IMU and GPS.
+*    Implement a sensor fusion algorithm (e.g., Extended Kalman Filter or Complementary Filter) to improve path accuracy using IMU and GPS.
 *    Ensure the DonkeyCar can record and follow an autonomous path with improved precision.
 
 ### Nice to Have
@@ -64,18 +64,19 @@ The result is a more robust navigation system, capable of handling GPS inaccurac
 <hr>
 
 ## Accomplishments
-* Sparkfun
-  * It enables the robot to map an unknown environment and to locate its position.
-  * Seeed IMU setup for better localization (Extended Kalman Filter).
-* Obstacle Avoidance
-  * Utilize its depth sensing capabilities to generate a point cloud representation of the environment. (Rviz2 and Foxglove Studio)
-  * Simple obstacle detection algorithm
+* Sparkfun Artemis OpenLog IMU Integration
+  * Complete OOP abstraction of Sparkfun IMU into existing framework for simple utilization in Jetson Nano
+  * Smoothen Gyroscope data using Kalman Filter
+  * Linearize accelerometer to Earth's frame
+  * Magnetometer calibration compatability
+* Fused GPS + IMU sensors using Extended Kalman Filter to update and rpedict more reliable position (still have to test and prove it works)
+
 <hr>
 
 ## Challenges
 * Establishing I2C communication between the BNO085 IMU and the Jetson Nano was difficult due to permission conflicts and dependency issues, requiring extensive troubleshooting.
 * Integrating the IMU with the DonkeyCar Framework proved challenging because the existing codebase was fragmented. We struggled to determine the correct approach for adding a new component to log data and utilize it in real-time processing within the framework.
-* We aimed to fuse GPS data with the IMU to improve path accuracy, but implementing sensor fusion was complex due to synchronization issues and the need for an effective filtering method, such as a Kalman filter or complementary filtering.
+* We aimed to fuse GPS data with the IMU to improve path accuracy, but implementing sensor fusion was complex due to synchronization issues and the need for an effective filtering method, such as a Extended Kalman filter or complementary filtering.
 <hr>
 
 ## Final Project Videos
