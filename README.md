@@ -209,8 +209,8 @@ sudo apt upgrade
 
 
 ## Acknowledgements
-Special thanks to Professor Jack Silberman and both TA's Winston and Alexander for delivering the course!  
-Thanks to Aryan on Triton AI giving suggestions and supporting on our project!  
+Special thanks to [Professor Jack Silberman](https://www.linkedin.com/in/jacksilberman/) and both TA's, [Winston](https://www.linkedin.com/in/winston-wei-han-chou-a02214249/) and [Alexander](https://www.linkedin.com/in/alexanderhaken/), for delivering the course!  
+Thanks to [Aryan](https://www.linkedin.com/in/aryan-palaskar-309b10176/) on Triton AI for giving suggestions and supporting our project!  
 
 **Programs Reference:**
 * [UCSD Robocar Framework](https://gitlab.com/ucsd_robocar2)
