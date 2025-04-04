@@ -48,7 +48,9 @@ The modifications involve:
 
 The result is a more robust framework, capable of handling GPS inaccuracies by leveraging IMU-based dead reckoning, improving path-following performance in autonomous driving applications.
 
-<img src="Images\imu_background.png" width="600" height="400">
+<div align="center">
+     <img src="Images\imu_background.png" width="600" height="400">
+</div>
 
 <hr>
 
