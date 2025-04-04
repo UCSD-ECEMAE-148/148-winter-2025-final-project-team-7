@@ -58,7 +58,7 @@ The result is a more robust framework, capable of handling GPS inaccuracies by l
 ### Must Have
 *    Integrate GPS and IMU sensors into the DonkeyCar framework.
 *    Modify the existing path recording system to log both GPS and IMU data for enhanced localization.
-*    Implement a sensor fusion algorithm (e.g., Extended Kalman Filter or Complementary Filter) to improve path accuracy using IMU and GPS.
+*    Implement a sensor fusion algorithm (e.g., Extended Kalman Filter or Madwick Quaternion Update) to improve path accuracy using IMU and GPS.
 *    Ensure the DonkeyCar can record and follow an autonomous path with improved precision.
 
 ### Nice to Have
