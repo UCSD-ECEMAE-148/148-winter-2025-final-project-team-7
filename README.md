@@ -14,6 +14,7 @@
     <li><a href="#what-we-promised">What We Promised</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#challenges">Challenges</a></li>
+    <li><a href="#future-work">Future Work</a></li>  
     <li><a href="#final-project-videos">Final Project Videos</a></li>
     <li><a href="#software">Software</a></li>
     <li><a href="#hardware">Hardware</a></li>
