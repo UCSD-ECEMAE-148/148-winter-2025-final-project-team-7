@@ -4,7 +4,7 @@
 #### <div align="center"> Team 7 Winter 2025 </div>
 
 <div align="center">
-     <img src="Images\bumblebee.png" width="600" height="200">
+     <img src="Images\bumblebee.png" width="800" height="600">
 </div>
 
 ## Table of Contents
@@ -48,7 +48,7 @@ The modifications involve:
 
 The result is a more robust framework, capable of handling GPS inaccuracies by leveraging IMU-based dead reckoning, improving path-following performance in autonomous driving applications.
 
-<img src="Images\imu_background.png" width="800" height="600">
+<img src="Images\imu_background.png" width="600" height="400">
 
 <hr>
 
