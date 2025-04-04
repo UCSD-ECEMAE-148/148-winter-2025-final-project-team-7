@@ -4,7 +4,7 @@
 #### <div align="center"> Team 7 Winter 2025 </div>
 
 <div align="center">
-     <img src="Images\bumblebee.png" width="800" height="600">
+     <img src="Images\bumblebee.png" width="600" height="400">
 </div>
 
 ## Table of Contents
