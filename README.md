@@ -48,6 +48,8 @@ The modifications involve:
 
 The result is a more robust framework, capable of handling GPS inaccuracies by leveraging IMU-based dead reckoning, improving path-following performance in autonomous driving applications.
 
+<img src="Images\imu_background.png" width="800" height="600">
+
 <hr>
 
 ## What We Promised
@@ -71,9 +73,6 @@ The result is a more robust framework, capable of handling GPS inaccuracies by l
   * Magnetometer calibration compatability
 * Fused GPS + IMU sensors using Extended Kalman Filter to update and rpedict more reliable position (still have to test and prove it works
 <hr>
-
-## IMU Sensor Reading Visual
-
 
 ## Challenges
 * Establishing I2C communication between the BNO085 IMU and the Jetson Nano was difficult due to permission conflicts and dependency issues, requiring extensive troubleshooting.
